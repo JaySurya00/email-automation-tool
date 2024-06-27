@@ -1,0 +1,20 @@
+{
+  "name": "email-automation-tool",
+  "version": "1.0.0",
+  "description": "Tool that will parse and check emails in a Google email ID, and respond to the emails based on the context using AI",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --env-file=.env src/index.js"
+  },
+  "author": "JaySurya00",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "@google/generative-ai": "^0.13.0",
+    "bullmq": "^5.8.2",
+    "express": "^4.19.2",
+    "googleapis": "^105.0.0",
+    "ioredis": "^5.4.1",
+    "nodemon": "^3.1.4"
+  }
+}
